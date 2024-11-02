@@ -2,8 +2,8 @@
 
 Git Assignment Project
 
-Name : Vimarish K M
-Student Number : 24229318
+Name : Jayaganeshan Thanga Kumar
+Student Number : 24211271
 
 Introduction:
 
