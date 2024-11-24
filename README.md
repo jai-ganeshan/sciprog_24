@@ -1,54 +1,75 @@
 # Scientific Programming - Practical 03
 
-- **Week-3.c**: A program that creates a doubly-linked list of 200 random integers in the range [0, 49], sorts the list, removes duplicates, and verifies the results.
+# Numerical Integration using Trapezoidal Rule
 
-## Contents
+## Overview
 
-- `Week-3.c`: Implements the creation, sorting, and deduplication of a doubly-linked list.
+This C program calculates the integral of the function `tan(x)` over the interval [0, π/3] using the **Trapezoidal Rule**. The result is compared with the natural logarithm of 2 (`log(2)`), and the difference between the two values is computed.
 
-## Getting Started
+## Program Details
 
-To work with this program, follow the steps below.
+### Key Features
+
+- Implements numerical integration using the **Trapezoidal Rule**.
+- Computes 12 equidistant points in the interval [0, π/3].
+- Adds the first and last terms of the function and the weighted sum of intermediate points.
+- Compares the result of the integration with `log(2)` and calculates the difference.
+
+### Mathematical Background
+
+The integral of `tan(x)` from 0 to π/3 is mathematically equivalent to `log(2)`:
+
+\[\int_{0}^{\pi/3} 	an(x) \, dx = \ln(2)
+\]
+
+This program numerically approximates the integral and evaluates the accuracy by comparing it to the analytical result.
+
+### Code Description
+
+1. The interval `[a, b]` is defined where `a = 0` and `b = π/3`.
+2. The interval is divided into `N = 12` subintervals of equal width.
+3. The Trapezoidal Rule is applied:
+   \[   	ext{Integral} = rac{b - a}{2N} \left[ f(a) + 2 \sum_{i=1}^{N-1} f(x_i) + f(b) 
+ight]
+   \]
+4. The program calculates the difference between the numerical result and `log(2)`.
+
+## How to Compile and Run
 
 ### Prerequisites
 
-Ensure you have the following installed on your system:
+Ensure you have the following installed:
 
-- A C compiler (e.g., GCC)
-- Git
+- GCC (or any other C compiler)
 
-### Cloning the Repository
+### Compilation
 
-Clone the repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/jai-ganeshan/sciprog_24.git
-```
-
-Navigate to the `practical03` directory:
-
-```bash
-cd sciprog_24/practical03/practical03
-```
-
-## Compilation and Execution
-
-**Compilation:**
+To compile the program, run the following command in your terminal:
 
 ```bash
 gcc -o Week-3 Week-3.c -lm
 ```
 
-**Execution:**
+### Execution
+
+Run the compiled program:
 
 ```bash
 ./Week-3
 ```
 
-**Expected Behavior:**
+### Expected Output
 
-- The program creates a doubly-linked list with 200 random integers between 0 and 49.
-- It sorts the list and verifies that it is sorted.
-- It removes duplicate elements and verifies that no duplicates remain.
-- The program prints the original list, the sorted list with duplicates, and the sorted list without duplicates.
+The program outputs:
 
+1. The calculated integral of `tan(x)` over [0, π/3].
+2. The value of `log(2)`.
+3. The difference between the calculated integral and `log(2)`.
+
+Sample output:
+
+```plaintext
+Integral of tan(x) = 0.69314718
+Result of log(2) = 0.69314718
+Difference = 0.00000000
+```
