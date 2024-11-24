@@ -1,0 +1,110 @@
+commit 92d6fcf44cecbdbd036a39e5ab59db5cb8f373f5
+Merge: 0e578db f020b27
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sun Nov 24 20:04:28 2024 +0530
+
+    Merge pull request #3 from jai-ganeshan/practical09
+    
+    Add files via upload
+
+commit f020b27fb88fce3fa121cd36646a4b025324211b
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sun Nov 24 20:03:30 2024 +0530
+
+    Add files via upload
+
+commit 0e578db41cf00af004667caa5faca3c27b2b2b75
+Merge: 0648f38 3958eaf
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Mon Nov 18 00:06:18 2024 +0530
+
+    Merge pull request #2 from jai-ganeshan/practical08
+    
+    Practical08
+
+commit 3958eaf534d5cadd2654f846096bb25d5da2a6da
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Mon Nov 18 00:05:09 2024 +0530
+
+    Add files via upload
+
+commit 60543f52513b59094bdbbf3bd314ee5c47bbc61b
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Mon Nov 18 00:04:27 2024 +0530
+
+    Add files via upload
+
+commit 0648f38e4dad4d18af43358fc1bc2a6ff7468560
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 07:30:04 2024 +0530
+
+    Update README.md
+
+commit 8439684c7ae2770e144efebcaab796408cddbdf4
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 07:28:24 2024 +0530
+
+    Update README.md
+
+commit e6cad22e932e360a8840a03147c633e209a54315
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 07:15:57 2024 +0530
+
+    Update README.md
+
+commit 6f893d65c7f70678dd1cfeb62e302fed815ab36f
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 07:14:29 2024 +0530
+
+    Update README.md
+
+commit 82bf9fdc01eb0e1994b3209194214d6a18ad8b8f
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 07:11:20 2024 +0530
+
+    Update README.md
+
+commit b731d6821beeb02555f6c757b818a2036bdfe922
+Merge: b4c4eeb 5bd96ba
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 06:56:22 2024 +0530
+
+    Merge pull request #1 from jai-ganeshan/practical06
+    
+    Practical06
+
+commit 5bd96ba0f69c3f21502e4004baa40ebf5b2224f5
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 06:55:13 2024 +0530
+
+    Added file
+
+commit 275438660dc70dc6a244145469f32841d0d262cd
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 06:54:42 2024 +0530
+
+    Added files
+
+commit 1511d451767f11d8540826997fd2f0b357537e0c
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 06:53:59 2024 +0530
+
+    Added file
+
+commit a61481bc212754d9284cb873bb92cb9a10d423db
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 06:53:19 2024 +0530
+
+    Added file
+
+commit 0ee89c6a251ef3a8b4c98730ef6edc9a3e85bccf
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 06:52:28 2024 +0530
+
+    Added files conversion.c and sum.c
+
+commit b4c4eebd7c8beece5aef48dd48a6591c15d4a041
+Author: Jai Ganeshan <111375255+jai-ganeshan@users.noreply.github.com>
+Date:   Sat Nov 2 06:47:49 2024 +0530
+
+    Initial commit
