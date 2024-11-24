@@ -1,53 +1,73 @@
 # Scientific Programming - Practical 04
 
-- **Week-4.c**: A program that processes a list of integers, sorts them, and removes duplicates.
+ Calculating Area under tan(x) using Trapezoidal Rule
 
-## Contents
+## Overview
 
-- `Week-4.c`: Implements the creation, sorting, and deduplication of a list of integers.
+This C program calculates the values of `tan(x)` for every 5 degrees from 0° to 60° and approximates the area under the curve `tan(x)` using the **Trapezoidal Rule**.
 
-## Getting Started
+## Program Details
 
-To work with this program, follow the steps below.
+### Key Features
+
+- Converts angles from degrees to radians using a user-defined function.
+- Calculates the `tan(x)` values for every 5 degrees and stores them in an array.
+- Uses the **Trapezoidal Rule** to approximate the area under the curve `tan(x)` for the given range.
+
+### Code Description
+
+1. **Conversion Function**: Converts degrees to radians using:
+   \[ 	ext{radians} = 	ext{degrees} 	imes rac{\pi}{180} \]
+2. **Value Storage**: Computes `tan(x)` for each 5-degree increment from 0° to 60° and stores the results in an array.
+3. **Area Calculation**: Implements the Trapezoidal Rule to approximate the area under the curve:
+   \[ 	ext{Area} = \sum_{i=0}^{n-1} rac{	ext{tan}(x_i) + 	ext{tan}(x_{i+1})}{2} \cdot h \]
+   where \( h \) is the interval width in radians (5° converted to radians).
+
+## How to Compile and Run
 
 ### Prerequisites
 
-Ensure you have the following installed on your system:
+Ensure you have the following installed:
 
-- A C compiler (e.g., GCC)
-- Git
+- GCC (or any other C compiler).
 
-### Cloning the Repository
+### Compilation
 
-Clone the repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/jai-ganeshan/sciprog_24.git
-```
-
-Navigate to the `practical04` directory:
-
-```bash
-cd sciprog_24/practical04/practical04
-```
-
-## Compilation and Execution
-
-**Compilation:**
+To compile the program, run the following command:
 
 ```bash
 gcc -o Week-4 Week-4.c -lm
 ```
 
-**Execution:**
+### Execution
+
+Run the compiled program:
 
 ```bash
 ./Week-4
 ```
 
-**Expected Behavior:**
+### Expected Output
 
-- The program reads a list of integers from the user.
-- It sorts the list in ascending order.
-- It removes duplicate elements from the sorted list.
-- The program prints the original list, the sorted list with duplicates, and the sorted list without duplicates.
+1. The program prints the values of `tan(x)` for every 5 degrees between 0° and 60°.
+2. The approximate area under `tan(x)` for the given range is displayed.
+
+Example output:
+
+```plaintext
+Tan(x) values for every 5 degrees):
+Tan(0°) = 0.000000
+Tan(5°) = 0.087489
+Tan(10°) = 0.176327
+Tan(15°) = 0.267949
+Tan(20°) = 0.363970
+Tan(25°) = 0.466308
+Tan(30°) = 0.577350
+Tan(35°) = 0.700208
+Tan(40°) = 0.839100
+Tan(45°) = 1.000000
+Tan(50°) = 1.191753
+Tan(55°) = 1.428148
+Tan(60°) = 1.732050
+Approximate area under tan(x): 0.896771
+```
